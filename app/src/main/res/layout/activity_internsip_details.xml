@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Internship_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#B9DBF6"
+        >
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/back"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Internship Details"
+            android:layout_marginEnd="35dp"
+            android:textColor="#3561B1"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360dp"
+                android:layout_height="600dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#DBECF4"
+                android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_marginTop="8dp"
+                   >
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Company Name"
+                       android:ems="15"
+                       android:textSize="18sp"
+                       android:background="@null"
+                       android:layout_marginTop="10dp"
+                       android:textColor="#736A6A"
+                       android:layout_marginStart="30dp"/>
+
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="40dp"
+                       android:layout_marginStart="20dp"
+                       android:paddingStart="15dp"
+                       android:paddingEnd="15sp"
+                       android:inputType="text"
+                       android:layout_marginEnd="20dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Intern's Role"
+                       android:ems="15"
+                       android:textSize="18sp"
+                       android:background="@null"
+                       android:layout_marginTop="10dp"
+                       android:textColor="#736A6A"
+                       android:layout_marginStart="30dp"/>
+
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="40dp"
+                       android:layout_marginStart="20dp"
+                       android:paddingStart="15dp"
+                       android:paddingEnd="15sp"
+                       android:inputType="text"
+                       android:layout_marginEnd="20dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Duration"
+                       android:ems="15"
+                       android:textSize="18sp"
+                       android:background="@null"
+                       android:layout_marginTop="10dp"
+                       android:textColor="#736A6A"
+                       android:layout_marginStart="30dp"/>
+
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="40dp"
+                       android:layout_marginStart="20dp"
+                       android:paddingStart="15dp"
+                       android:paddingEnd="15sp"
+                       android:inputType="text"
+                       android:layout_marginEnd="20dp"/>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal">
+
+                           <LinearLayout
+                               android:layout_width="180dp"
+                               android:layout_height="wrap_content"
+
+                               android:orientation="vertical">
+
+
+                               <TextView
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:text="Start Date"
+                                   android:ems="15"
+                                   android:textSize="18sp"
+                                   android:background="@null"
+                                   android:layout_marginTop="10dp"
+                                   android:textColor="#736A6A"
+                                   android:layout_marginStart="30dp"/>
+
+                               <EditText
+                                   android:layout_width="match_parent"
+                                   android:layout_height="40dp"
+                                   android:layout_marginStart="20dp"
+                                   android:paddingStart="15dp"
+                                   android:paddingEnd="15sp"
+                                   android:inputType="text"
+                                   android:layout_marginEnd="20dp"/>
+
+                           </LinearLayout>
+                           <LinearLayout
+                               android:layout_width="180dp"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+
+                               <TextView
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:text="End Date"
+                                   android:ems="15"
+                                   android:textSize="18sp"
+                                   android:background="@null"
+                                   android:layout_marginTop="10dp"
+                                   android:textColor="#736A6A"
+                                   android:layout_marginStart="30dp"/>
+
+                               <EditText
+                                   android:layout_width="match_parent"
+                                   android:layout_height="40dp"
+                                   android:layout_marginStart="20dp"
+                                   android:paddingStart="15dp"
+                                   android:paddingEnd="15sp"
+                                   android:inputType="text"
+                                   android:layout_marginEnd="20dp"/>
+
+                           </LinearLayout>
+                       </LinearLayout>
+
+
+                   //stipend
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_width="100dp"
+                           android:layout_height="wrap_content"
+                           android:text="Stipend"
+                           android:ems="15"
+                           android:textSize="18sp"
+                           android:background="@null"
+                           android:textColor="#736A6A"
+                           android:layout_marginStart="30dp"/>
+                       <CheckBox
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginStart="50dp"
+                           android:text="Yes"/>
+                       <CheckBox
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginStart="30dp"
+                           android:text="No"/>
+                   </LinearLayout>
+
+               </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

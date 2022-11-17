@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Second_Screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="50dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginEnd="50dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/student_reg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Register as Student"
+            android:background="#FF0000"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/teacher_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Register as Teacher"
+                    android:layout_marginTop="15dp"
+                    android:background="#FF0000"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/hod_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Register as HOD"
+                    android:layout_marginTop="15dp"
+                    android:background="#FF0000"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Login"
+                    android:layout_marginTop="15dp"
+                    android:background="#FF0000"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>

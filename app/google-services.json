@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418158495276",
+    "project_id": "priya-aman",
+    "storage_bucket": "priya-aman.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418158495276:android:8b0f266ca3f6e81c517389",
+        "android_client_info": {
+          "package_name": "com.example.priya_aman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418158495276-58nn369qhotuqdr69bnhk9mtvseig1pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG_3ny9SfhMoN9hV555d8rHSPQF-gAmII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418158495276-58nn369qhotuqdr69bnhk9mtvseig1pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

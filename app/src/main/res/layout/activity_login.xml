@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/clg_logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pune Institute of Computer Technology"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="21sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textColor="#3561B1"
+            android:textSize="23sp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email-id"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:layout_gravity="end"
+            android:textColor="#4574C6"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/login_main"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="#3561B1"
+            app:cardCornerRadius="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Don't have an account?"
+                        android:layout_marginTop="1dp"
+                        android:textSize="16sp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="60dp"
+                        android:textColor="#4574C6"/>
+            <TextView
+                android:id="@+id/signup_in_login"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text=" Sign up"
+                android:layout_marginTop="1dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#4574C6"/>
+        </LinearLayout>
+
+
+        <Spinner
+            android:id="@+id/spinner_user_select"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
